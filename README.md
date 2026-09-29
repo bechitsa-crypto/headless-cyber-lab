@@ -1,6 +1,11 @@
 # headless-cyber-lab
 Isolated active-directory/virtualization home lab detailing vulnerability analysis, service exploitation (vsftpd 2.3.4, Samba, UnrealIRCd), and defensive mitigations.
 
+VM Config :
+
+<img width="1920" height="1200" alt="vms" src="https://github.com/user-attachments/assets/c744bd65-8d73-4579-9318-249eeba21949" />
+
+
 
 # Hands-On Cybersecurity Lab: Metasploitable 2 Vulnerability Analysis
 
@@ -28,6 +33,9 @@ A full service version scan was executed from the attacker host using Nmap:
 ```bash
 nmap -sV 192.168.214.128
 
+<img width="1920" height="1200" alt="nmap" src="https://github.com/user-attachments/assets/6cc85640-e00a-44a6-8793-b832a6ff3c14" />
+
+
 Key Findings:
 
 Port 21/TCP: vsftpd 2.3.4 (Known backdoor vulnerability)
@@ -48,6 +56,15 @@ Mechanism: In July 2011, the vsftpd-2.3.4.tar.gz distribution archive was compro
 Trigger: Supplying a username ending with :) forces the service to bind a root shell listener to TCP port 6200.
 
 Execution: Successfully obtained root remote access using Metasploit (exploit/unix/ftp/vsftpd_234_backdoor) and verified privilege levels (getuid / whoami).
+
+Screenshots
+
+<img width="1920" height="1200" alt="ftp exploit" src="https://github.com/user-attachments/assets/79a0ac39-1c12-4e06-9e87-87666dda03ce" />
+
+<img width="1920" height="1200" alt="ftp explot 1" src="https://github.com/user-attachments/assets/39603b5d-5790-426e-b806-6e556dd13faf" />
+
+<img width="577" height="240" alt="ftp exploit 2" src="https://github.com/user-attachments/assets/41d7d358-35eb-4346-a2f3-c41e0b35b88f" />
+
 
 2. UnrealIRCd 3.2.8.1 Backdoor (CVE-2010-2075)
 Mechanism: Trojaned source archive containing a malicious execution string inside the DEBUG3_DOLOG_SYSTEM macro.
