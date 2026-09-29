@@ -34,8 +34,8 @@ A full service version scan was executed from the attacker host using Nmap:
 nmap -sV 192.168.214.128
 
 
-<img width="1920" height="1200" alt="nmap" src="https://github.com/user-attachments/assets/60f67e50-2475-4ac1-be00-3fdcd79a1a86" />
 
+<img width="1920" height="1200" alt="nmap" src="https://github.com/user-attachments/assets/04cc3c10-c263-408a-b462-b47813c16e21" />
 
 Key Findings:
 
