@@ -33,8 +33,7 @@ A full service version scan was executed from the attacker host using Nmap:
 ```bash
 nmap -sV 192.168.214.128
 
-<img width="1920" height="1200" alt="nmap" src="https://github.com/user-attachments/assets/6cc85640-e00a-44a6-8793-b832a6ff3c14" />
-
+<img width="1920" height="1200" alt="nmap" src="https://github.com/user-attachments/assets/60f67e50-2475-4ac1-be00-3fdcd79a1a86" />
 
 Key Findings:
 
