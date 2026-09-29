@@ -60,7 +60,12 @@ Execution: Successfully obtained root remote access using Metasploit (exploit/un
 
 Screenshots
 
-<img width="1920" height="1200" alt="ftp exploit" src="https://github.com/user-attachments/assets/79a0ac39-1c12-4e06-9e87-87666dda03ce" />
+
+
+<img width="1920" height="1200" alt="ftp exploit" src="https://github.com/user-attachments/assets/145aedd8-38f7-4ef4-9349-80f2268a454f" />
+
+
+
 
 <img width="1920" height="1200" alt="ftp explot 1" src="https://github.com/user-attachments/assets/39603b5d-5790-426e-b806-6e556dd13faf" />
 
